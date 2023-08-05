@@ -4,6 +4,8 @@ An example banking structure made using Java. Originally, this program was desig
 
 All user data for the software is stored in the "accounts" directory, where a number sub-folder is created for each account ID. All banking data is stored in standard text files. 
 
+Additionally, several unit tests—written in JUnit 4—are included in the "test" directory.
+
 **Important Note:** This software is by no means intended for public usage; it only exists for academic purposes to better understand basic data persistence and how Classes can interact with each other in Java. If this were to ever be used publicly, massive re-writes would need to occur, promoting security, privacy, and usability. 
 ## Usage
 When run, the program prompts the user to enter an ID number. If no account exists using that ID number, a new one will be created. Otherwise, typing in an ID number of an existing account will log the user into that account. Once logged in, the user may select various self-explanatory options provided in the terminal by entering the respective number into the command line. 
